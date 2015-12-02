@@ -111,10 +111,6 @@ class Commander {
             'token'    => true,
             'endpoint' => '/emoji.list'
         ],
-        'files.info' => [
-            'token'    => true,
-            'endpoint' => '/files.info'
-        ],
         'files.delete' => [
             'token'    => true,
             'endpoint' => '/files.delete'
@@ -162,6 +158,10 @@ class Commander {
         'groups.history' => [
             'token'    => true,
             'endpoint' => '/groups.history'
+        ],
+        'groups.info' => [
+            'token'    => true,
+            'endpoint' => '/groups.info'
         ],
         'groups.invite' => [
             'token'    => true,
