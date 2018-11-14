@@ -26,6 +26,10 @@ class Commander {
             'endpoint' => '/auth.test',
             'token'    => true
         ],
+        'conversations.list' => [
+            'token'    => true,
+            'endpoint' => '/conversations.list'
+        ],
         'channels.archive' => [
             'token'    => true,
             'endpoint' => '/channels.archive'
